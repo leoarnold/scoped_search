@@ -1,4 +1,4 @@
-= Scoped search {<img src="https://secure.travis-ci.org/wvanbergen/scoped_search.png" />}[http://travis-ci.org/wvanbergen/scoped_search]
+= Scoped search {<img src="https://github.com/wvanbergen/scoped_search/actions/workflows/ruby.yml/badge.svg" />}[https://github.com/wvanbergen/scoped_search/actions]
 
 The <b>scoped_search</b> gem makes it easy to search your ActiveRecord
 models. Searching is performed using a query string, which should be passed to

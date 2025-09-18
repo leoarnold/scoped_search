@@ -66,6 +66,8 @@ module ScopedSearch::RSpec::Database
   end
 
   def self.drop_model(klass)
+    return unless klass
+
     klass.constants.grep(/\AHABTM_/).each do |habtm_class|
       ActiveRecord::Migration.drop_table(klass.const_get(habtm_class).table_name)
       klass.send(:remove_const, habtm_class)
